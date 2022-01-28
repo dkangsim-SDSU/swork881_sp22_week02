@@ -1,0 +1,71 @@
+---
+title: "SWORK 881 week02"
+author: "your name goes here "
+date: "MM/DD/YYYY"
+output: html_document
+---
+
+# load libraries
+```{r setup, include=FALSE}
+
+```
+
+
+# Data
+```{r}
+# load data
+give_your_data_name_here<- read_csv("")
+
+#how many observations and variables? 
+
+```
+#how many observations and variables? 
+[provide your answer here]
+
+
+```{r}
+# create a new variable called `depression` by summing all ptsd variables. Use tidy approach
+
+
+```
+
+
+```{r}
+#run simple descriptive statistics for all variables
+
+
+```
+
+DESCRIBE THE DATA BRIEFLY HERE
+[provide your answer here]
+
+
+
+# Model and Visualization
+> What is the effect of `age`, `sex`, and `education` on `depression score`? 
+
+Create a linear regression model that answers the question above. Print the results of the output and model diagnostics.
+
+```{r}
+# lm
+
+```
+
+
+```{r}
+# model diagnostics
+
+
+```
+
+
+```{r}
+# use ggplot to plot histogram of residuals (use 20 bins)
+
+
+```
+
+# Discussion of Results
+
+Describe and interpret your results, including any statistical information you believe important: 
+
